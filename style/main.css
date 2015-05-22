@@ -89,6 +89,13 @@ header {
 .signup-button a:hover {
 	text-decoration: none;
 }
+.signup-button a {
+	font-size: 30px;
+  	font-weight: bold;
+  	display: block;
+  	text-align: center;
+  	line-height: 2;
+}
 .button-text {
 	font-size: 34px;
 	font-weight: bold;
