@@ -216,7 +216,7 @@ SIGNUP WINDOW SHADOW EFFECT
 	max-width: 100%;
 	width: 226px;
 	margin: 0 auto;
-    margin-top: 20px;
+   margin-top: 20px;
 }
 .cat-book {
 	-webkit-filter: drop-shadow(5px 5px 3px rgba(68,68,68,0.6));
@@ -224,7 +224,7 @@ SIGNUP WINDOW SHADOW EFFECT
 }
 .cat-acc {
 	margin: 0 auto;
-    margin-top: 20px;
+   margin-top: 20px;
 }
 .catalog-title:before {
   content: "";
