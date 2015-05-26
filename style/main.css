@@ -556,7 +556,10 @@ footer span {
 		float: left;
 		padding: 0 5% 2% 5%;
 	}
-	form, input[type=text], input[type=email], textarea {
+	form, textarea {
+		width: 290px;
+	}
+	input[type=text], input[type=email] {
 		width: 290px;
 	}
 	.info {
