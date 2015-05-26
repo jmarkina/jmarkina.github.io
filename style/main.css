@@ -305,7 +305,7 @@ SIGNUP WINDOW SHADOW EFFECT
 	padding: 0 8% 4% 8%;
 }
 form {
-	width: 320px;
+	width: 290px;
 	margin: 0 auto;
 }
 label {
@@ -313,7 +313,7 @@ label {
 	font-weight: bold;
 }
 input[type=text], input[type=email], textarea {
-	width: 320px;
+	width: 290px;
   	height: 37px;
   	background-color: #fff1e1;
  	border: 1px solid #444;
@@ -559,15 +559,9 @@ footer span {
 		float: left;
 		padding: 0 5% 2% 5%;
 	}
-	form, textarea {
+	/*form, textarea, input {
 		width: 290px;
-	}
-	input[type=text] {
-		width: 290px;
-	}
-	input[type=email] {
-		width: 290px;
-	}
+	}*/
 	.info {
 		font-size: 16px;
 		display: block;
