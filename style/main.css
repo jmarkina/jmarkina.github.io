@@ -531,6 +531,9 @@ footer span {
 		width: 270px;
   		height: 54px;
 	}
+	.signup-button a {
+		line-height: 1.8;
+	}
 	.button-text {
 		font-size: 30px;
   		font-weight: bold;
@@ -559,7 +562,10 @@ footer span {
 	form, textarea {
 		width: 290px;
 	}
-	input[type=text], input[type=email] {
+	input[type=text] {
+		width: 290px;
+	}
+	input[type=email] {
 		width: 290px;
 	}
 	.info {
