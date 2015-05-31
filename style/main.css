@@ -385,21 +385,22 @@ footer {
   	background-color: #fff1e1;
   	padding: 20px 0 0 20px;
 }
-article {
-	-webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-	column-width: 150px;
-	-webkit-column-width: 150px;
-	-moz-column-width: 150px;
-	padding-left: 0px;
-	line-height: 2;
-  	margin-left: 20%;
-  	margin-top: 0;
-  	font-size: 20px;
-}
+
 footer span {
 	clear: both;
+}
+.links {
+	padding: 0;
+  	margin: 0;
+	-ms-box-orient: vertical;
+  	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -moz-flex;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-wrap: wrap;
+  	flex-wrap: wrap;
 }
 .links-col {
 	margin-top: 1px;
@@ -408,7 +409,7 @@ footer span {
 .links-col a:hover {
 	text-decoration: underline;
 }
-.links-col a{
+.links-col a {
 	color: #e11e83;
 }
 .logo-footer-text {
@@ -432,25 +433,6 @@ footer span {
 ------------------*/
 
 @media only screen and (max-width: 1120px) {
-	/*.signup {
-		width: 310px;
-  		height: 335px;
-		margin-top: 30px;
-	}
-	.signup-text {
-		font-size: 20px; 
-	}
-	.signup-button {
-		width: 270px;
-  		height: 54px;
-	}
-	.button-text {
-		font-size: 30px;
-  		font-weight: bold;
-  		line-height: 1.8;
-  		text-align: center;
-  		display: block;
-	}*/
 	.phone {
 		font-size: 20px;
 		margin-top: 19px !important;
@@ -476,13 +458,6 @@ footer span {
 		height: 500px;
 	}
 }
-
-@media only screen and (min-width: 2000px) {
-	header {
-		height: 700px;
-	}
-}
-
 /* Small screen, non-retina */
 /*Adjusting everything that goes before header*/
 @media only screen and (min-width: 320px) and (max-width: 940px) {
@@ -518,6 +493,9 @@ footer span {
 	.icon-eye, .icon-heart, .icon-map, .icon-human {
 		height: 50px;
 		width: 50px;
+	}
+	footer {
+		padding: 20px 0;
 	}
 }
 /*Signup window for small screen*/ 
@@ -562,9 +540,6 @@ footer span {
 		float: left;
 		padding: 0 5% 2% 5%;
 	}
-	/*form, textarea, input {
-		width: 290px;
-	}*/
 	.info {
 		font-size: 16px;
 		display: block;
@@ -600,16 +575,6 @@ footer span {
 	.gallery, .happy, .cloud {
 		margin: 0 auto;
 	}
-	article {
-		-webkit-column-count: 1;
-	   -moz-column-count: 1;
-	   column-count: 1;
-		column-width: 150px;
-		-webkit-column-width: 150px;
-		-moz-column-width: 150px;
-		line-height: 1.5;
-		font-size: 16px;
-	}
 }
 
 @media only screen and (min-width: 716px) and (max-width: 850px) {
@@ -617,18 +582,7 @@ footer span {
 		font-size: 16px;
 	}
 }
-@media only screen and (min-width: 601px) and (max-width: 999px) {
-	article {
-		-webkit-column-count: 2;
-	   -moz-column-count: 2;
-	   column-count: 2;
-		column-width: 150px;
-		-webkit-column-width: 150px;
-		-moz-column-width: 150px;
-		line-height: 2;
-		font-size: 18px;
-	}
-}
+
 /*Meduim screen non-retina*/
 /*Adjusting advantages*/
 @media only screen and (min-width: 600px) and (max-width: 850px) {
@@ -649,19 +603,7 @@ footer span {
 	}
 }
 
-@media only screen and (min-width: 1000px) {
 
-	article {
-	-webkit-column-count: 3;
-   -moz-column-count: 3;
-   column-count: 3;
-	column-width: 150px;
-	-webkit-column-width: 150px;
-	-moz-column-width: 150px;
-	line-height: 2;
-	font-size: 20px;
-	}
-}
 
 
 
