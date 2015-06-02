@@ -22,6 +22,9 @@ a:hover {
 	max-width: 2040px;
 	margin: 0 auto;
 }
+h1 {
+	font-weight: normal;
+}
 
 /*----------------
 	HEADER
