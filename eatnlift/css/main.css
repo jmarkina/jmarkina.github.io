@@ -1,0 +1,37 @@
+
+/*---------------------
+		LAYOUT
+----------------------*/
+
+
+.jumbotron {
+	clear: both;
+	background: url(../images/pepper.jpg) no-repeat;
+    background-position: 0% 25%;
+    background-size: cover;
+}
+
+.jumbotron h2, .jumbotron p {
+	color: whitesmoke;
+}
+
+.jumbotron h2 {
+	text-shadow: 2px 2px black;
+}
+
+.media-object {
+	width: 200px;
+	margin-top: 5px;
+}
+.media {
+	/*border: 1px solid black;*/
+	padding: 10px 20px;
+}
+.media h4:nth-child(n+2) {
+	padding: 10px 0 10px;
+	border-top: 1px solid black;
+}
+.media-body {
+	width: 450px;
+	padding-left: 7px;
+}

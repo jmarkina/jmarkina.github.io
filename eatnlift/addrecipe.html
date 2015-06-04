@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add recipe to your collection.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    </head>
+    <body>
+        <form method="post">
+            Title
+            <input type="text" name="title" value="">
+            Course 
+            <select required name="course">
+              <option value="appetizers">Appetizers</option>
+              <option value="breakfast">Breakfast</option>
+              <option value="lunch">Lunch</option>
+              <option value="dinner">Dinner</option>
+              <option value="salads">Salads</option> 
+              <option value="Sauces">Sauces</option> 
+              <option value="snacks">Snacks</option> 
+              <option value="beverages">Beverages</option>
+              <option value="desserts">Desserts</option> 
+              <option value="breads">Breads</option>
+            </select>
+            <span>Description</span>
+            <input type="text" name="description" value="">
+            <span>Total cooking time</span>
+            <input type="text" name="cooktime" value="">
+            <span>Servings</span>
+            <input type="text" name="servings" value="">
+            <span>Ingredints</span>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
