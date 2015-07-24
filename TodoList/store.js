@@ -16,7 +16,7 @@ var findItemById = function(id) {
 }
 
 ListStore = {
-  listName: 'My shopping list',
+  listName: 'MyList',
 
   urlRoot: function() {
     return "http://listalous.herokuapp.com/lists/" + this.listName;
