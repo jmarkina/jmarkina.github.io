@@ -16,7 +16,7 @@ var findItemById = function(id) {
 }
 
 ListStore = {
-  listName: 'NickHongList',
+  listName: 'My shopping list',
 
   urlRoot: function() {
     return "http://listalous.herokuapp.com/lists/" + this.listName;
