@@ -1,0 +1,67 @@
+/*-----------------------------
+Overriding jquery UI theme
+-----------------------------*/
+body, input, select, textarea, button, .ui-btn {
+	font-family: 'Open Sans', sans-serif !important;
+}
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+	background: url(worn_dots.png) !important;
+}
+.ui-btn-icon-right:after {
+	background-color: #f59b3f !important;
+}
+.ui-input-btn {
+	background-color: #f59b3f !important;
+}
+.ui-input-btn:hover {
+	background-color: #f9ae4d !important;
+}
+.ui-input-btn:active {
+	background-color: #ff6600 !important;
+}
+/*-----------------------------
+Back button on details page
+-----------------------------*/
+header a:visited {
+	background-color: #f9ae4d !important;
+}
+header a:active {
+	background-color: #ff6600 !important;
+}
+.ui-content {
+	padding-top: 0.4em !important;
+}
+/*-----------------------------
+Custom agjusting
+-----------------------------*/
+#notes {
+	margin-top: 10px;
+}
+section {
+	text-align: center;
+}
+#details {
+	padding: 0 10px;
+    background-color: white;
+	text-align: left;
+	line-height: 1.5;
+}
+/*-----------------------------------------------
+Making textarea placeholder less contrast on focus
+-------------------------------------------------*/
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } 
+input:focus::-moz-placeholder { color:transparent; } 
+input:focus:-ms-input-placeholder { color:transparent; } 
+
+/*-----------------------------------------------
+Media query for desktop version
+-------------------------------------------------*/
+@media only screen and (min-width: 700px) {
+	section {
+		width: 414px;
+	}
+	.ui-content {
+		margin: 0 auto;
+	}
+};

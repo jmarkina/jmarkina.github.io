@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zen Notes</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet" media="screen">
+    <link href="css/reset.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </head>
+  <body>
+    <div data-role="page" id="main">
+    <section data-role="content">
+      <header data-role="header">
+        <h1>Zen Notes</h1>
+      </header>
+      <form id="notes-form">
+        <textarea id="input-note" type="text" name="note" placeholder="Add a note. I grow as you type"></textarea>
+        <input id="save-note" type="submit" value="Save">
+      </form>
+      <ul id="notes" data-role="listview">
+      </ul>
+    </section>
+  </div><!--end of page-->
+  <div data-role="page" id="note">
+    <section data-role="content">
+      <header data-role="header">
+        <h1>Edit Note</h1>
+        <a href="#main">Back</a>
+      </header>
+      <div id="details"></div>
+    </section>
+  </div>
+  </body>
+</html>
