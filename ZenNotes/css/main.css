@@ -12,6 +12,8 @@ body, input, select, textarea, button, .ui-btn {
 }
 .ui-input-btn {
 	background-color: #f59b3f !important;
+	text-shadow: none !important;
+	color: #fff !important;
 }
 .ui-input-btn:hover {
 	background-color: #f9ae4d !important;
@@ -19,6 +21,12 @@ body, input, select, textarea, button, .ui-btn {
 .ui-input-btn:active {
 	background-color: #ff6600 !important;
 }
+.ui-link {
+	text-shadow: none !important;
+}
+/*a:active {
+	background-color: #ddd !important;
+}*/
 /*-----------------------------
 Back button on details page
 -----------------------------*/
@@ -28,9 +36,17 @@ header a:visited {
 header a:active {
 	background-color: #ff6600 !important;
 }
-.ui-content {
-	padding-top: 0.4em !important;
+.ui-listview>.ui-li-static {
+	padding-top: 0 !important;
 }
+.ui-listview>.ui-li-static.ui-last-child {
+	border-bottom-width: 0 !important;
+	padding: 0px !important;
+}
+.ui-first-child {
+	margin-top: 15px !important;
+}
+
 /*-----------------------------
 Custom agjusting
 -----------------------------*/
@@ -40,9 +56,9 @@ Custom agjusting
 section {
 	text-align: center;
 }
-#details {
+#details, #note-default-det {
 	padding: 0 10px;
-    background-color: white;
+   background-color: white;
 	text-align: left;
 	line-height: 1.5;
 }

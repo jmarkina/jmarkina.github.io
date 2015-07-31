@@ -25,6 +25,12 @@
       </form>
       <ul id="notes" data-role="listview">
       </ul>
+      <ul data-role="listview"><!--default page-->
+        <li>
+          <a href="#note-default">I'm your first note. Click on me to see the rest of the note. Here you can also edit me. I'll save everything immediately. All your notes in one browser. Have fun, feel Zen!
+          </a>
+        <li>
+      </ul>
     </section>
   </div><!--end of page-->
   <div data-role="page" id="note">
@@ -34,7 +40,16 @@
         <a href="#main">Back</a>
       </header>
       <div id="details"></div>
-    </section>
-  </div>
+    </section><!--end of the details page-->
+    </div>
+    <div data-role="page" id="note-default">
+      <section data-role="content">
+        <header data-role="header">
+          <h1>Edit Note</h1>
+          <a href="#main">Back</a>
+        </header>
+        <div id="note-default-det" contenteditable="true">I'm your first note. Click on me to see the rest of the note. You can also edit me. I'll save everything immediately. All your notes in one browser. Have fun, feel Zen!</div>
+      </section>
+    </div><!--end of default page-->
   </body>
 </html>
