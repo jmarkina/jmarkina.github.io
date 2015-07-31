@@ -14,6 +14,7 @@ body, input, select, textarea, button, .ui-btn {
 	background-color: #f59b3f !important;
 	text-shadow: none !important;
 	color: #fff !important;
+	margin-bottom: 10px !important;
 }
 .ui-input-btn:hover {
 	background-color: #f9ae4d !important;
@@ -24,9 +25,9 @@ body, input, select, textarea, button, .ui-btn {
 .ui-link {
 	text-shadow: none !important;
 }
-/*a:active {
-	background-color: #ddd !important;
-}*/
+.note-default-style {
+	margin-top: 20px !important;
+}
 /*-----------------------------
 Back button on details page
 -----------------------------*/
@@ -42,9 +43,6 @@ header a:active {
 .ui-listview>.ui-li-static.ui-last-child {
 	border-bottom-width: 0 !important;
 	padding: 0px !important;
-}
-.ui-first-child {
-	margin-top: 15px !important;
 }
 
 /*-----------------------------
@@ -62,6 +60,7 @@ section {
 	text-align: left;
 	line-height: 1.5;
 }
+
 /*-----------------------------------------------
 Making textarea placeholder less contrast on focus
 -------------------------------------------------*/
