@@ -2,7 +2,7 @@ $(document).ready(function() {
   //Set main page as a default page
   window.location.hash = 'main';
 
-  localStorage.clear();
+  //localStorage.clear();
   
   // Fetching existing notes
   populateExistingNotes();
