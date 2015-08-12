@@ -2,6 +2,14 @@
 I usually separate reset.css and use autoprefixer to keep my code 
 cleaner and more readable. However, for this small project I decided 
 to go without additional files and ready-to-use tools.
+
+As of background, I would use an original image and add CSS filter 
+(brightness) on top. For this case I used my photoshop skills :-)
+
+There are more than one font used on design mockups. They are very
+similar, but some of the letters are slightly different, though.
+I decided to use 'Source Sans Pro' for the entire page as it was used
+for numbers in mockups. It looks very clean and well readable. 
 */
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
