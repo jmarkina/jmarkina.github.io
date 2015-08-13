@@ -334,7 +334,7 @@ Marketplace table mobile
         margin-left: 0;
     }
     .btn-pagination:nth-child(n+2) {
-        margin-left: 0.7rem;
+        margin-left: 0.5rem;
     }
     .skip-header-link {
         top: -1.6rem;
