@@ -389,7 +389,7 @@ Marketplace table mobile
         display: none;
     }
     .wrap-data {
-        padding: 1.813rem 0.625rem 0 0.625rem;
+        padding: 1.813rem 0.5rem 0 0.5rem;
     }
     th:nth-child(2) {
         padding-left: 0.625rem;
