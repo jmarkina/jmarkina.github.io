@@ -9,7 +9,8 @@ As of background, I would use an original image and add CSS filter
 There are more than one font used on design mockups. They are very
 similar, but some of the letters are slightly different, though.
 I decided to use 'Source Sans Pro' for the entire page as it was used
-for numbers in mockups. It looks very clean and well readable. 
+for numbers in mockups. It looks very clean and well readable.
+
 */
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
@@ -330,7 +331,10 @@ Marketplace table mobile
         font-size: 1rem;
     }
     .btn-pagination {
-        padding: 0.375rem;
+        margin-left: 0;
+    }
+    .btn-pagination:nth-child(n+2) {
+        margin-left: 0.7rem;
     }
     .skip-header-link {
         top: -1.6rem;
